@@ -1,0 +1,133 @@
+body {
+  background-color: #102743;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 70px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  top: 10px;
+  right: 20px;
+}
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+h2 {
+  color: #5187ed;
+}
+
+.address-section {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+#totalAmount {
+  font-weight: bold;
+  font-weight: 18px;
+}
+
+.invoice-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.invoice-content table th {
+  background-color: grey;
+  color: white;
+  border: 1px solid black;
+}
+
+.invoice-content table td,
+.invoice-content table th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.invoice-content .total-section {
+  margin-top: 20px;
+}
+
+.invoice-content .signature {
+  text-align: right;
+  margin-top: 40px;
+}
+
+.invoice-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.invoice-details,
+.invoice-addresses {
+  margin-bottom: 30px;
+}
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+.invoice-table th {
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  border: 2px solid #ddd;
+}
+.invoice-table td {
+  padding: 10px;
+  border: 2px solid #ddd;
+}
+.total-amount {
+  text-align: right;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.signature {
+  text-align: right;
+  margin-top: 40px;
+}
+.signature div {
+  display: inline-block;
+  text-align: left;
+  margin-right: 40px;
+}
+
+.invoice-content {
+  border: 2px solid black;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.invoice-content h2 {
+  text-align: center;
+}
+
+.invoice-content .address-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
