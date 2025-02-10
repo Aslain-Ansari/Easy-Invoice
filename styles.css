@@ -11,6 +11,7 @@ body {
   margin-top: 70px;
   position: relative;
   max-width: 100%;
+  overflow-x: auto;
 }
 
 .logo img {
@@ -52,6 +53,11 @@ textarea {
   font-size: 18px;
   text-align: center;
   vertical-align: middle;
+}
+
+.invoice-content {
+  width: 100%;
+  overflow-x: auto;
 }
 
 .invoice-content table {
@@ -126,6 +132,10 @@ textarea {
     max-width: 100px;
   }
 
+  .invoice-content {
+    overflow-x: auto;
+  }
+
   th,
   td {
     font-size: 12px;
@@ -142,6 +152,11 @@ textarea {
 
   h2 {
     font-size: 20px;
+  }
+
+  .invoice-content {
+    width: 100%;
+    overflow-x: auto;
   }
 
   th,
